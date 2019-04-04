@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "globalReturn": true,
+      "jsx": true
+    },
+    "sourceType": "module",
+    "extraFileExtensions": [
+      ".vue"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "project": "./tsconfig.json"
+  },
+  "parser": "vue-eslint-parser",
+  "plugins": [
+    "vue"
+  ],
+  "root": true
+}
